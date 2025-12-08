@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d0e8431583.js" crossorigin="anonymous"></script>
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <title>Welcome to The Couples Resort</title>
+</head>
+
+<body>
+    <h1 class="hidden">Welcome to The Couples Resort</h1>
+    <div id="mobile-outline">
+    <header id="main-header" class="grid-con">
+        <nav id="main-nav" class="col-span-full">
+            <h2 class="hidden">Main Navigation</h2>
+            <input type="checkbox" id="hamburger">
+            <label for="hamburger">
+                <img src="images/burger-menu.svg" alt="hamburger menu icon">
+            </label>
+                <ul id="burger-con">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Rooms</a></li>
+                    <li><a href="packages.html">Packages</a></li>
+                    <li><a href="#">Dining</a></li>
+                    <li><a href="spa.html">Spa Activities</a></li>
+                    <li><a href="book-desk.html">Reservations</a></li>
+                </ul>
+        </nav>
+        <div id="logo" class="col-span-full">
+            <img src="images/cr-logo.png" alt="Couples Resort Logo">
+        </div>
+    </header>
+    
+    <main>
+        <section id="main-hero" class="grid-full">
+                <img src="images/book-now-mob.jpg" alt="couples resort on lake" class="col-span-full hero-overlap">
+                <div class="grid-con col-span-full hero-overlap">
+                    <a class="book-now col-start-3 col-end-5" id="book-now-top" href="#">Book Now</a>
+                    <h2 class="hero-img-h2"><span>Couples Resort</span><br> 5 Star, Luxury Couples Resort &amp; Spa</h2> 
+                </div>   
+        </section> 
+
+        <section id="hero-welcome" class="grid-con">
+            <h2 class="hidden">Welcome Information</h2>
+            <p class="col-span-full">Welcome to our secure server!</p> 
+            <p class="col-span-full">Use the reservation system to check the current rates for your stay.</p>
+            <p class="col-span-full">To help you better : Food Allergies - Please enter the type of food allergy.</p>
+            <p class="col-span-full">Our rooms have down duvet and pillows, if allergic to feathers indicate if both are to be removed or just the pillows.</p>
+        </section>
+
+
+        <div class="calendar box col-span-full">
+        <div class="calendar-header">
+            <span>November 2025</span>
+        </div>
+        <div class="calendar-grid grid-con">
+            <div>Sun</div>
+            <div>Mon</div>
+            <div>Tue</div>
+            <div>Wed</div>
+            <div>Thu</div>
+            <div>Fri</div>
+            <div>Sat</div>
+
+        <div class="calendar-grid"></div>
+            <div class="box1"></div> 
+            <div class="box1">1</div>
+            <div class="box1">2</div>
+            <div class="box1">3</div>
+            <div class="box1">4</div>
+            <div class="box1">5</div>
+            <div class="box1">6</div>
+
+            
+            <div class="box1">7</div>
+            <div class="box1">8</div>
+            <div class="box1">9</div>
+            <div class="box1">10</div>
+            <div class="box1">11</div>
+            <div class="box1">12</div>
+            <div class="box1">13</div>
+
+
+            <div class="box1">14</div>
+            <div class="box1">15</div>
+            <div class="box1">16</div>
+            <div class="box1">17</div>
+            <div class="box1">18</div>
+            <div class="box1">19</div>
+            <div class="box1">20</div>
+
+
+            <div class="box1">21</div>
+            <div class="box1">22</div>
+            <div class="box1">23</div>
+            <div class="box1">24</div>
+            <div class="box1">25</div>
+            <div class="box1">26</div>
+            <div class="box1">27</div>
+
+
+            <div class="box1">28</div>
+            <div class="box1">29</div>
+            <div class="box1">30</div>
+            <div class="box1">31</div>
+            <div class="box2">1</div>
+            <div class="box2">2</div>
+        </div>
+
+        <label for="nights" id="nights-label">Nights:</label>
+            <select id="nights" name="nights">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            </select>
+
+            <label for="guests" id="guests-label">Guests:</label>
+            <select id="guests" name="guests">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            </select>
+
+            <button class="btn"><a href="#rooms">Check Availability</a></button> 
+        </div>
+
+        <div id="rooms" class="lightbox">
+    <div class="lightbox-content">
+      <a href="#" class="close">&times;</a>
+      <h2 class="hidden">Available Rooms</h2>
+            
+        <div class="grid-container">
+  <div class="image-box">
+    <img src="images/room1-mob.webp" alt="Master's Middle Floor photo">
+  </div>
+  <div class="text-box">
+    <h3 class="side-header">Master's Middle Floor</h3>
+            <p class="side-text"># nights<br>
+            Nov/../2025 - Dec/../2025<br>
+        $1716 + tax</p>
+  </div>
+
+  <div class="image-box">
+    <img src="images/room2-mob.webp" alt="Spa Villa Cabin photo">
+  </div>
+  <div class="text-box">
+    <h3 class="side-header">Spa Villa Cabin</h3>
+            <p class="side-text"># nights<br>
+            Nov/../2025 - Dec/../2025<br>
+        $2976 + tax</p>
+  </div>
+</div>
+        <div id="bottom-info">
+    <p class="bottom-text">Please be aware of Evening Dinner Dress Code. Couples Dress Up! Men wear a Collared Shirt or an Evening Jacket. Thank You. You look Gorgeous!</p>
+        </div>
+    </div>
+  </div>
+
+
+        <section class="romantic-getaway">
+            <div class="content">
+                <h2>#1 Ideal Romantic Getaway</h2>
+            </div>
+            
+            <div class="ideals">
+                <img src="images/ideal-1-mob.jpg" alt="Couple enjoying a hot tub outside">
+                <p>Lakeside Private<br>
+                Hot Tubs</p>
+            </div>
+
+            <div class="ideals">
+                <img src="images/ideal-2-mob.jpg" alt="An image of gourmet meals and dishes">
+                <p>5-Course Gourmet<br>
+                Meals</p>
+            </div>
+
+            <div class="ideals">
+                <img src="images/ideal-3-mob.jpg" alt="An image of a burning firewood">
+                <p>Wood Burning<br>
+                Real Fire-Places</p>
+            </div>
+            </section>
+
+
+    <div id="video-section" class="col-span-full">
+        <img src="images/video-1-mob.jpg" alt="Video 1 Placeholder">
+        <h3 class="header-text">ALL-INCLUSIVE with GOURMET MEALS</h3>
+        <p>Prices are On-Line or Call us! Book Now, secure your Luxury Nature Destination! Lake View, Free Algonquin Park Access & Private Hot Tub with All Cabins and Jr Suites.</p>
+
+        <img src="images/video-2-mob.jpg" alt="Video 2 Placeholder">
+        <h3 class="header-text">ALL-INCLUSIVE ACTIVITIES</h3>
+        <p>YEAR ROUND: FREE Algonquin Park Pass for Algonquin Park Endless Walking and Hiking. FREE: Billiards, Darts, Gym and Sauna Room, Algonquin Park Museum Visitor Centre. We provide Ice-Cleats and Poles for IceHiking when the Snow arrives for perfect Algonquin hiking.</p>
+    </div>
+
+
+        <div id="policy-info">
+            <h2 class="hidden">Policies & Revisions Information</h2>
+
+            <div class="grid-con">
+                <nav id="policy-nav" class="col-span-full">
+                    <h3 class="hidden">Nav for Policies</h3>
+                    <ul>
+                        <li><a class="selected" href="#">Property Policy</a></li>
+                        <li><a href="#">Tipping & Gratuity Advice</a></li>
+                        <li><a href="#">Power Outage Policy</a></li>
+                        <li><a href="#">Revisions to This Policy</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+
+            <div class="grid-con">
+                <section class="col-span-full policy-section">
+                    <div>
+                        <h3 class="hidden">Policies & Revisions</h3>
+                        <p class="policy-sect-text">Front Desk office hours are 8:30 am to 10:00 pm.
+                        Fiber-Optic $$$$ Internet Feeds this remote Resort, currently we provide it Free.
+                        Cell phone coverage is also available in our area.
+                        </p>
+                        <p>Breakfast: 8:30 am to 10:30 am - Please reserve a room service time.
+                        Lunch: 12:00 pm to 4:00 pm - Served/Take out/Room Service.
+                        Dinner: Please reserve a Table or Room Service time by calling Extension 108 between 1:00 pm - 5:00 pm the day of your arrival.
+                        </p> 
+
+                        <p>All Accommodations have Hot Tubs: Resort Policy for your Health Protection is that Hot Tub Chemical Testing is done daily in your Hot Tub, regardless of signage you hang at your door.</p>
+
+                        <p>Cleaning will occur between 9 am and mid-afternoon. The cleaning card MUST be displayed on your outside door handle or in the plastic holder for housekeeping.</p>
+
+                        <p>Business Services are available - Inquire at Front Desk.</p>
+                        
+                        <p>Please no disturbing music around the lake front or from your private deck.</p>
+
+                        <p>Keep rooms quiet after 12 midnight.</p>
+
+                        <p>No Pets Allowed.</p>
+
+                        <p>All rooms are non-smoking and non-vaping. There are ashtrays provided for smokers located on the balcony or patio. There will be a $300 surcharge applied, if you are smoking or vaping or leaving Cannabis in your accommodation. Leave Cannabis in your vehicle as it is known to stink up the accommodation. During the Spring, Summer and Fall there are Firepits set up by the lake for those that indulge, to enjoy.</p>
+
+                        <p>All Damages to Accommodations and facilities are the guest's responsibility!</p>
+
+                        <p>Please give privacy & respect to homes & cottages on the lake and on the Resort. Do Not Trespass.</p>
+                    </div>
+                </section>
+            </div>
+
+            <div class="grid-con">
+            <section class="col-span-full policy-section">
+                    <div>
+                        <h3 class="hidden">Policies & Revisions</h3>
+                        <p class="policy-sect-text">If you feel you really must tip or leave a gratuity, then we encourage you to tell the amazing staff and the World on TripAdvisor or Yelp or Google Reviews or Facebook as they, the staff, love to read it. Your action will affect them both emotionally positively and financially positively as it will help their "joy of the day" and their careers as they move forward in life.</p>
+                    </div>
+                    </section> 
+                </div>
+
+                <div class="grid-con">
+            <section class="col-span-full policy-section">
+                    <div>
+                        <h3 class="hidden">Policies & Revisions</h3>
+                        <p class="policy-sect-text">Power Outage Policy was introduced due to outage in winter 2009, the first time in 42 years that the resort had to shut down due to a power outage. Currently in a Power Outage we can Provide the Following Services:</p>
+
+                        <p>1. Wood burning fireplace in all Accommodations; for Romance ( Possibly # 1 Reason Guests stay with us)
+                        2. Fully operational Kitchen; Gourmet Dining (Possible also the #1 Reason Guests stay with us)
+                        3. Cold running water in all Accommodations
+                        4. Hot and Cold Showers in the Gym/Sauna Facilities
+                        5. Recreation Room with Big TV for the Vital Game (Much lower on the list of reasons to stay with us...but May be critical)
+                        6. Office has access to the outside world with Phone and Data Line services
+                        7. We Apologize that all the Toys in your Accommodation, and the Pool/Hot Tub will Not be operational.</p>
+
+                        <p>- We will try to update the home page of our website to tell when we are up again.
+                        - If there is a power outage we will try to notify guests. If we are successful the deposit will be refunded if desired.
+                        - If guests arrive or if a power outage happens while guests are here, we will offer:
+                            o If power goes out for two hours between 4pm and 11pm: 10% off
+                            o If power goes out for three hours between 8pm and 11pm: 20% off
+                            o If power goes out for four hours between 7pm and 11pm: 30% off
+                            o If power goes out for five hours between 6pm and 11pm: 35% off and one free night stay in the future, similar accommodation
+                            o Power outages after 11pm through to 4pm will have no discount attached.</p>
+                    </div>
+                    </section> 
+                </div>
+
+                <div class="grid-con">
+            <section class="col-span-full policy-section">
+                    <div>
+                        <h3 class="hidden">Policies & Revisions</h3>
+                        <p class="policy-sect-text">The Couples Resort reserves the right to revise, amend, or modify this policy, our Internet Service Agreement and our other policies and agreements at any time and in any manner. Notice of any revision, amendment, or modification will be posted in accordance with the Internet Service Agreement.</p>
+                    </div>
+                    </section> 
+                </div>
+
+                <div class="grid-con">
+            <section class="col-span-full policy-section">
+                    <div>
+                        <h3 class="policy-sect-text">Where to Direct Questions About The Couples Resort's Privacy Policy</h3>
+                        <p>If you have any questions about this Privacy Policy or the practices described herein, you may contact:<br>
+                        Attention: John Sorensen<br>
+                        Couples Resort<br>
+                        P. O. Box 310<br>
+                        139 Galeairy Lake Road<br>
+                        Whitney - Algonquin Park, ON K0J 2M0<br>
+                        Canada</p>
+                    </div>
+                    </section> 
+                </div>
+        </div>
+
+        <label class="agree">
+            <input type="checkbox">
+            <span>By checking this box, I confirm that I have read and agree to the website's Terms of Service and Privacy Policy.</span>
+            </label>
+
+       
+        <section class="book-features grid-con">              
+                <h2 class="book-features-text col-span-full"><span>Reservations & Booking Information</span></h2>
+                <p class="book-features-text col-span-full">Couples Resort<br>
+                139 Galeairy Lake Road<br>
+                Whitney, Ontario, Canada, K0J 2M0<br>
+                1-866-202-1179</p>
+                
+                <div class="book-items col-span-full">
+                    <h3>&#9658; Policies</h3>
+                </div>
+
+                <div class="book-items col-span-full">
+                    <h3>&#9658; Deposits</h3>
+                </div>
+
+                <div class="book-items col-span-full">
+                    <h3>&#9658; Guests Cancellations & Change Date Fees</h3>
+                </div>
+
+                <div class="book-items col-span-full">
+                    <h3>&#9660; Extra Fees</h3>
+                    <div class="book-list-con">
+                        <div id="book-list-group1">
+                            <p>13% HST TAX, Lunches, Extra food, Spa Treatments (however, repeat guests receive 2 free 1/2 treatments if here in the last 2 years), 20/30/40 hpr Italian Deck Boat(s), Drinks from the Bar, Store, Parking $20/Night. Spa Products.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="book-items col-span-full">
+                    <h3>&#9658; Guarantee</h3>
+                </div>            
+        </section> 
+
+        <div class="end-text col-span-full">
+            <p>The content and pricing on this website is accurate to the best of our abilities.
+            All prices on this website and in our reservation system are based on conditions at the time of publishing and are subject to change.
+            Please call to confirm availability and pricing.</p>
+        </div>
+
+            <section id="contact-form-hero" class="grid-full">
+                <img src="images/contact-mob.jpg" alt="couple embracing overlooking a lake" class="col-span-full hero-overlap">
+                <div class="grid-con col-span-full hero-overlap">
+                <h2 class="hero-img-h2"><span>Couples Resort</span><br> Contact</h2>
+                </div>
+            </section>
+
+            <div id="contact-form-text" class="grid-con">
+                <p class="col-span-full">Thank you for taking the time to learn more about our resort and why we are Ontario's number one choice for couples looking to reconnect. For reservation enquiries and further information, please complete our contact form below. Or if you prefer to talked call us at our toll free number listed below.</p>
+            </div>
+
+            <section class="grid-con">
+                <h2 class="hidden">Address, Phone Number and Form</h2>
+                <section id="contact-form-adress-left" class="col-span-full">
+                        <h3>Couples Resort (Inc.)</h3>
+                        <p>1198 Osprey Rd, (End of)<br>
+                        Minden, Soyers Lake, ON, K0M 2K0<br>
+                    </p>
+                    <h3 class="hidden">Phone, Fax and Email</h3>
+                    <p>
+                        Toll Free:+1 877 201-1156<br>
+                        FAX:+1 613 638 2217<br>
+                        E-mail: info[at]coupleresort.com 
+                    </p>
+                </section>
+
+                <section id="contact-form-fields-right" class="col-span-full">
+                    <h3 class="hidden">Contact Us Form</h3>
+                    <form action="email.php" method="POST" enctype="text/plain">
+                        <input name="fullName" type="text" placeholder="First & Last Name">
+                        <input name="contactInfo" type="text" required placeholder="Phone number or Email">
+                        <textarea name="msg" placeholder="Enter your questions, comments or concerns here..."></textarea>
+                        <input name="submit" type="submit" value="Send">
+                    </form>
+                </section>
+
+            </section>
+
+    </main>
+
+    <footer id="main-footer" class="grid-con">
+            <h2 class="hidden">Couples Resort Footer</h2>
+                       
+                    <div id="main-footer-contact-info" class="col-span-full">                      
+                        <h3>Couples Resort</h3>
+                        <p>1198 Osprey Rd, (End of)<br>
+                            Minden, Soyers Lake, ON, <br>
+                            K0M 2K0
+                        </p>
+                        <h3 class="hidden">Phone and Fax Information</h3>
+                        <p>
+                            Toll Free:+1 877 201-1156<br>
+                            FAX:+1 613 638 2217
+                        </p>
+                    </div>
+            
+                <p id="price-policy" class="col-span-full">All prices and services on this website and in our reservation system are based on conditions at the time of publishing and are subject to change. Please call to confirm services, availability and pricing. ©2013 Couples Resort Inc. All Rights Reserved. Privacy Policy </p>
+            
+    </footer>
+    </div>
+</body>
+</html>
